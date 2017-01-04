@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+        http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" version="2.0">
+
+    <!-- JDO "unit" -->
+    <persistence-unit name="model">
+        <class>lab.io.rush.model.User</class>
+        <exclude-unlisted-classes/>
+        <!--  
+        <properties>
+            <property name="javax.jdo.option.ConnectionURL" value="jdbc:mysql://192.168.2.110:3306/moana"/>
+            <property name="javax.jdo.option.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.jdo.option.ConnectionUserName" value="root"/>
+            <property name="javax.jdo.option.ConnectionPassword" value="123"/>
+            <property name="datanucleus.schema.autoCreateAll" value="true"/>
+            <property name="datanucleus.schema.validateTables" value="false"/>
+            <property name="datanucleus.schema.validateConstraints" value="false"/>
+            <property name="datanucleus.cache.level2.type" value="none"/>
+        </properties>
+        -->
+    </persistence-unit>
+</persistence>

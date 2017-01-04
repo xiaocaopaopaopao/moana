@@ -1,0 +1,221 @@
+.top{
+	height: 35px;
+	width:85%;
+	position: absolute;
+	left:100px;
+	top:14px;
+}
+
+.top_left{
+	width: 200px;
+	height: 35px;
+	float: left;
+	display: inline;
+	background: url("../images/title.png") no-repeat;
+}
+
+.top_right{
+	width: 60px;
+	height: 35px;
+	float: right;
+	display: inline;
+}
+
+.top_right a {
+	color: #e8e7e7;
+	display: block;
+	float: left;
+	padding-top:8px;
+	overflow: hidden;
+	text-decoration:none;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+#updown{
+	width: 27px;
+	height: 35px;
+	float: right;
+	display: inline;
+	background: url("../images/down.png") no-repeat;
+	background-position: center;
+}
+
+.m_list{
+    position: absolute;
+    top: 52px;
+    right: 70px;
+    width: 120px;
+    height:150px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    z-index: 10;
+}
+.inner{
+    width:100%;
+    height:100%;
+    border-radius: 3px;
+    border: 1px solid #404040;
+    background: #2a2a2a;
+ }
+
+.arr{
+	position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 16px;
+    height:9px;
+    margin-left:-8px;
+    background: url("../images/arr.png") no-repeat;
+}
+
+.m_list ul{
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-left: 0px; 
+	margin-top: 0px; 
+	padding: 0px;
+}
+
+.m_list li{
+	float: left;
+	padding-left:0px;
+	width: 100%;
+	height: 38px;
+	color: #ccc;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	list-style: none;
+}
+
+.m_list a{
+	float: left;
+	width: 80%;
+	height: 100%;
+	margin-top:12px;
+	margin-left: 12px;
+}
+
+.icn-mb{
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-right:5px;
+	background: url("../images/qq.png") no-repeat;
+}
+
+.icn-mx{
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-right:5px;
+	background: url("../images/weibo.png") no-repeat;
+}
+
+#cover{
+	position:absolute; 
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #2c2d2d;
+	filter:alpha(opacity=60); 
+    -moz-opacity:0.6; 
+    -khtml-opacity: 0.6; 
+     opacity: 0.6; 
+     z-index: 11;
+}
+
+#loginBox{
+	position:absolute; 
+	left:35%; 
+	top:35%; 
+	width:450px; 
+	height:280px; 
+	border: 1px solid #000;
+    border-radius: 6px;
+    z-index: 10;
+    background-color: white;
+    z-index: 12;
+}
+
+.login_title{
+	position:relative;
+	width:100%;
+	height:15%;
+	background: url("../images/header.png") repeat;
+}
+
+.title_logo{
+	position:absolute;
+	width:96%;
+	height:60%;
+	left: 10px;
+	top: 8px;
+}
+
+#title_logo_word{
+	float:left;
+	color: white;
+	display: inline;
+}
+
+#close{
+	float: right;
+	width: 15px;
+	height:15px;
+	display:inline;
+	margin-top:6px;
+	background: url("../images/close.png") no-repeat;
+}
+
+#login_pos{
+	position:absolute;
+	width:100%;
+	height:25%;
+	left: 0px;
+	top: 70px;
+}
+
+#qq_logo{
+	position:absolute;
+	width:53px;
+	height:53px;
+	left: 23%;
+	top: 10px;
+	background: url("../images/qqlogo.png") no-repeat;
+}
+
+#weibo_logo{
+	position:absolute;
+	width:56px;
+	height:56px;
+	right: 23%;
+	top: 8px;
+	background: url("../images/weibologo.png") no-repeat;
+}
+
+#login_words{
+	position:absolute;
+	width:100%;
+	height:15%;
+	left: 0px;
+	top: 135px;
+}
+
+#qq_words{
+	position:absolute;
+	width:100px;
+	height:30px;
+	left: 19%;
+	top: 10px;
+}
+
+#weibo_words{
+	position:absolute;
+	width:100px;
+	height:30px;
+	right: 17%;
+	top: 8px;
+}

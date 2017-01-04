@@ -1,0 +1,141 @@
+18:25:51,188 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+18:25:51,391 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+18:25:51,391 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+18:56:41,792 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+18:56:42,003 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+18:56:42,003 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+22:16:29,344 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+22:16:29,580 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+22:16:29,581 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+10:08:09,626 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+10:08:09,874 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+10:08:09,875 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+10:16:35,416 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+10:16:35,597 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+10:16:35,597 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+10:45:13,043 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+10:45:13,240 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+10:45:13,240 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+10:59:08,561 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+10:59:08,751 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+10:59:08,751 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+11:14:46,325 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+11:14:46,650 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+11:14:46,651 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+11:15:23,188 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+11:15:24,102 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+11:15:24,102 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+11:43:24,707 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+11:43:24,929 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+11:43:24,929 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+11:43:45,514 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+11:43:45,729 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+11:43:45,730 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+12:15:01,586 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+12:15:01,816 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+12:15:01,816 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+12:15:43,084 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+12:15:43,298 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+12:15:43,298 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+12:24:39,187 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+12:24:39,407 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+12:24:39,408 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+12:38:10,994 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+12:38:11,244 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+12:38:11,244 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+12:39:55,133 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+12:39:55,327 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+12:39:55,327 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+15:44:56,491 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:44:56,896 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+15:44:56,897 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+15:57:39,039 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:57:39,242 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:57:39,242 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:23:45,273 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:23:45,568 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:23:45,568 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:27:46,750 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:27:47,052 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:27:47,052 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:32:02,099 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:32:02,356 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:32:02,357 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:34:19,590 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:34:19,883 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:34:19,883 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:36:13,773 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:36:14,022 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:36:14,023 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:39:25,250 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:39:25,512 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:39:25,512 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:40:41,692 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:40:41,926 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:40:41,926 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:44:33,475 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:44:33,713 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:44:33,713 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:48:52,060 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:48:52,279 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:48:52,279 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:51:52,194 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:51:52,455 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:51:52,455 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:52:29,876 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:52:30,152 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:52:30,152 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+16:54:01,880 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+16:54:02,138 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+16:54:02,138 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:06:56,313 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+17:06:56,563 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+17:06:56,563 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:07:59,276 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+17:07:59,489 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+17:07:59,490 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:10:47,086 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+17:10:47,321 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+17:10:47,321 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:11:55,994 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+17:11:56,228 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+17:11:56,228 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:16:13,751 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+17:16:13,970 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+17:16:13,970 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:30:14,780 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+17:30:15,077 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+17:30:15,077 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:55:36,674 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+17:55:37,057 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+17:55:37,057 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+18:25:29,428 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+18:25:29,725 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+18:25:29,725 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+20:33:07,619 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+20:33:07,988 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+20:33:07,988 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+21:13:06,965 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+21:13:07,344 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+21:13:07,345 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+21:33:03,612 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+21:33:04,142 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+21:33:04,143 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+11:44:11,647 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+11:44:11,993 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+11:44:12,503 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+11:44:12,504 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+11:44:12,991 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+11:44:12,992 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+17:27:01,648 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 4.1.16) for API "JDO"
+17:27:01,955 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+17:27:01,956 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+18:15:39,250 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 4.1.16) for API "JDO"
+18:15:39,500 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+18:15:39,500 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+18:16:03,572 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 4.1.16) for API "JDO"
+18:16:03,782 (main) INFO  [DataNucleus.Enhancer] - Writing class file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" with enhanced definition
+18:16:03,782 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+18:24:09,282 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 4.1.16) for API "JDO"
+18:24:09,454 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+18:24:09,454 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.

@@ -1,0 +1,116 @@
+.top{
+	height: 35px;
+	width:85%;
+	position: absolute;
+	left:100px;
+	top:14px;
+}
+
+.top_left{
+	width: 200px;
+	height: 35px;
+	float: left;
+	display: inline;
+	background: url("../images/title.png") no-repeat;
+}
+
+.top_right{
+	width: 300px;
+	height: 35px;
+	float: right;
+	display: inline;
+}
+
+.emailInfo{
+	width: 80%;
+	height: 35px;
+	padding-top:7px;
+	display: inline;
+	float: left;
+	color: #e8e7e7;
+}
+
+.loginStatus{
+	width: 10%;
+	height: 35px;
+	float: left;
+	padding-top:8px;
+	color: #e8e7e7;
+	display: inline;
+	overflow: hidden;
+	text-decoration:none;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+.loginStatus:HOVER{
+	cursor:pointer;
+	color: white;
+	text-decoration:underline;
+}
+
+#updown{
+	width: 27px;
+	height: 35px;
+	float: right;
+	display: inline;
+	background: url("../images/down.png") no-repeat;
+	background-position: center;
+}
+
+#cover{
+	position:absolute; 
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #2c2d2d;
+	filter:alpha(opacity=60); 
+    -moz-opacity:0.6; 
+    -khtml-opacity: 0.6; 
+     opacity: 0.6; 
+     z-index: 11;
+}
+
+#loginBox{
+	position:absolute; 
+	left:35%; 
+	top:35%; 
+	width:450px; 
+	height:280px; 
+	border: 1px solid #000;
+    border-radius: 6px;
+    z-index: 10;
+    background-color: white;
+    z-index: 12;
+}
+
+.login_title{
+	position:relative;
+	width:100%;
+	height:15%;
+	background: url("../images/header.png") repeat;
+}
+
+.title_logo{
+	position:absolute;
+	width:96%;
+	height:60%;
+	left: 10px;
+	top: 8px;
+}
+
+#title_logo_word{
+	float:left;
+	color: white;
+	display: inline;
+}
+
+#close{
+	float: right;
+	width: 15px;
+	height:15px;
+	display:inline;
+	margin-top:6px;
+	background: url("../images/close.png") no-repeat;
+}

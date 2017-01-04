@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop   
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd   
+        http://www.springframework.org/schema/beans   
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+        http://www.springframework.org/schema/context   
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd   
+        http://www.springframework.org/schema/mvc   
+        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd   
+        http://www.springframework.org/schema/tx   
+        http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+	<!-- 默认注解映射支持 -->
+	<mvc:annotation-driven />
+
+	<!-- 自动扫描目录下所有类文件 -->
+	<context:component-scan base-package="lab.io.rush.*" />
+
+	<!-- 导入外部的properties文件 -->
+	<context:property-placeholder location="classpath:redis.properties"
+		ignore-unresolvable="true" />
+
+	<!-- 对模型视图名称的解析 -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<!-- jedis配置 -->
+	<bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<property name="maxIdle" value="${redis.maxIdle}" />
+		<property name="maxWaitMillis" value="${redis.maxWait}" />
+		<property name="testOnBorrow" value="${redis.testOnBorrow}" />
+	</bean>
+	
+	<!-- redis服务器中心 -->
+	<bean id="connectionFactory"
+		class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+		<property name="poolConfig" ref="poolConfig" />
+		<property name="port" value="${redis.port}" />
+		<property name="hostName" value="${redis.host}" />
+		<property name="password" value="${redis.pass}" />
+		<property name="timeout" value="${redis.timeout}"></property>
+	</bean>
+	
+	<bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+		<property name="connectionFactory" ref="connectionFactory" />
+		<property name="keySerializer">
+			<bean
+				class="org.springframework.data.redis.serializer.StringRedisSerializer" />
+		</property>
+		<property name="valueSerializer">
+			<bean
+				class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />
+		</property>
+	</bean>
+
+	<!-- 配置 PersistenceManagerFactory -->
+	<bean id="myPmf"
+		class="org.springframework.orm.jdo.LocalPersistenceManagerFactoryBean">
+		<property name="jdoProperties">
+			<props>
+				<prop key="javax.jdo.PersistenceManagerFactoryClass">
+					org.datanucleus.api.jdo.JDOPersistenceManagerFactory
+				</prop>
+				<prop key="javax.jdo.option.ConnectionDriverName">com.mysql.jdbc.Driver</prop>
+				<prop key="javax.jdo.option.ConnectionURL">jdbc:mysql://192.168.2.110:3306/moana</prop>
+				<prop key="javax.jdo.option.ConnectionUserName">root</prop>
+				<prop key="javax.jdo.option.ConnectionPassword">123</prop>
+				<prop key="org.jpox.autoCreateSchema">true</prop>
+				<prop key="datanucleus.query.sql.allowAll">true</prop>
+				<prop key="" ></prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- 配置事物管理器 -->
+	<bean id="myTxManager" class="org.springframework.orm.jdo.JdoTransactionManager">
+		<property name="persistenceManagerFactory" ref="myPmf" />
+	</bean>
+
+	<!-- 启用事务注解 -->
+	<tx:annotation-driven transaction-manager="myTxManager"></tx:annotation-driven>
+
+	<bean id="ticketService" class="lab.io.rush.service.impl.TicketServiceImpl"></bean>
+	<bean id="ticketDao" class="lab.io.rush.dao.impl.TicketDaoImpl"></bean>
+	<bean id="userService" class="lab.io.rush.service.impl.UserServiceImpl"></bean>
+	<bean id="userDao" class="lab.io.rush.dao.impl.UserDaoImpl"></bean>
+</beans>  

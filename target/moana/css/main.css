@@ -1,0 +1,109 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #FFF;
+	overflow: hidden;
+	font-family: "Trebuchet MS";
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	height: 64px;
+	width: 100%;
+	position:relative;
+	background-color: #FFF;
+	background: url("../images/header.png") repeat-x 0 0;
+}
+
+#main{
+	height: 100%;
+	width: 100%;
+	background-color: #FFF;
+	display: inline;
+	z-index: 9;
+}
+
+.main_top{
+    width:100%;
+    height:8px;
+    background: url("../images/main_top.png") repeat-x 0 0;
+}
+
+.main_buttom{
+    width:100%;
+    height:100%;
+    position:relative;
+    background: url("../images/movie.png") repeat 0 0;
+}
+
+.content{
+	width: 40%;
+	height:70%;
+	position: absolute;
+	left:30%;
+	top:12%;
+	background-color: white;
+}
+
+.movie{
+	padding-left:25px;
+	padding-right: 25px;
+}
+
+.movie a{
+	font-size: 14px;
+}
+
+#movie_mess{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.content b{
+	color: #c70c0c;
+}
+
+#ticket_last{
+	font-size: 60px;
+	font-family: "Micosoft Yahei";
+}
+
+#ticket_selected{
+	padding-top: 30px;
+}
+
+#ticket_selected a{
+	font-size: 12px;
+	color: #c70c0c;
+	font-family: "Micosoft Yahei";
+}
+
+#ticketSelected{
+	width: 60px;
+}
+
+#ticket_selected em{
+    width: 20px;
+    height: 26px;
+    background: #e1e1e1;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+#ensure{
+	width: 200px;
+	height: 40px;
+	color:white;
+	background: url("../images/main_top.png") repeat 0 0;
+}
+
+#whitespace{
+	height:15px;
+	
+}
+
+

@@ -205,10 +205,10 @@
 			<version>[5.0.0-m1, 5.9)</version>
 		</dependency>
 		<dependency>
-            <groupId>commons-dbcp</groupId>
-            <artifactId>commons-dbcp</artifactId>
-            <version>1.4</version>
-        </dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
 
 		<!--mysql驱动依赖包 -->
 		<dependency>
@@ -216,13 +216,21 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.18</version>
 		</dependency>
-		
+
 		<!--json依赖 -->
 		<dependency>
-           <groupId>org.json</groupId>
-           <artifactId>json</artifactId>
-           <version>20160212</version>
-        </dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160212</version>
+		</dependency>
+
+		<!-- spring mail 依赖 -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -248,16 +256,16 @@
 				</executions>
 			</plugin>
 			<plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <path>/moana</path>
-                    <url>http://localhost:8080/manager/html</url>
-                    <server>tomcat7</server>
-                    <port>8080</port>
-                </configuration>
-            </plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<path>/moana</path>
+					<url>http://localhost:8080/manager/html</url>
+					<server>tomcat7</server>
+					<port>8080</port>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>

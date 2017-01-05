@@ -116,6 +116,16 @@ function logout(){
  */
 function purchaseTicket(){
 	var num = $("#ticketSelected").val();
+	if(isNaN(num)){
+		alert("请输入数字！");
+		$("#ticketSelected").val(0);
+		return;
+	}
+	if(num <= 0){
+		alert("购买电影票数量不能为0张！");
+		$("#ticketSelected").val(0);
+		return;
+	}
 	$.ajax({
 		url : "ticket/purchaseTicket.do",
 		type : "get",

@@ -5,6 +5,8 @@ import lab.io.rush.model.User;
 public interface UserDao {
 
 	boolean insert(User user);
+	
+	User selectById(String uid);
 
 	User selectByEmail(String email);
 

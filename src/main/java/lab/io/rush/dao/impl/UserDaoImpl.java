@@ -25,6 +25,19 @@ public class UserDaoImpl implements UserDao {
 			return true;
 		return false;
 	}
+	
+	@Override
+	public User selectById(String uid) {
+		PersistenceManager pm = persistenceManagerFactory
+				.getPersistenceManager();
+		Query<?> q = pm.newQuery(User.class, "uid =='" + uid + "'");
+		@SuppressWarnings("unchecked")
+		List<User> users = (List<User>) q.execute();
+		User u = null;
+		if (users != null && !users.isEmpty())
+			u = users.get(0);
+		return u;
+	}
 
 	@Override
 	public User selectByEmail(String email) {

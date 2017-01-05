@@ -114,13 +114,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <tr>
                      <td align="center">
                          <em class="suba">-</em>
-                         <input type="text" id="ticketSelected" value="0" style="text-align: right;">
+                         <input type="text" id="ticketSelected" value="0" 
+                               style="text-align: right;" onchange="ticketSelected();">
                          <em class="adda">+</em>
                      </td>
                   </tr>
                   <tr id="whitespace"></tr>
                   <tr>
-                     <td align="center"><input type="button" id="ensure" value="确认购买" 
+                     <td align="center"><input type="button" id="ensure" value="确认购买"
                          <% if(user == null){%>
                               onclick="pop_loginBox();">
                          <%}else{%>

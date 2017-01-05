@@ -25,6 +25,8 @@
 		ignore-unresolvable="true" />
 	<context:property-placeholder location="classpath:jdbc.properties"
 		ignore-unresolvable="true" />
+		<context:property-placeholder location="classpath:email.properties"
+		ignore-unresolvable="true" />
 
 	<!-- 对模型视图名称的解析 -->
 	<bean id="viewResolver"
@@ -78,10 +80,6 @@
 		<property name="nontransactionalRead" value="true" />
 	</bean>
 
-	<bean id="jdoTemplate" class="org.springframework.orm.jdo.JdoTemplate">
-		<property name="persistenceManagerFactory" ref="myPmf"></property>
-	</bean>
-
 	<!-- 配置事物管理器 -->
 	<bean id="myTxManager" class="org.springframework.orm.jdo.JdoTransactionManager">
 		<property name="persistenceManagerFactory" ref="myPmf" />
@@ -90,9 +88,26 @@
 	<!-- 启用事务注解 -->
 	<tx:annotation-driven transaction-manager="myTxManager"></tx:annotation-driven>
 
+	<!-- 邮件服务器 -->
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="protocol" value="${spring.mail.protocol}" />
+		<property name="host" value="${spring.mail.host}" />
+		<property name="port" value="${spring.mail.port}" />
+		<property name="username" value="${spring.mail.username}" />
+		<property name="password" value="${spring.mail.password}" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">false</prop>
+				<prop key="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</prop>
+			</props>
+		</property>
+	</bean>
+
 	<bean id="userService" class="lab.io.rush.service.impl.UserServiceImpl"></bean>
 	<bean id="userDao" class="lab.io.rush.dao.impl.UserDaoImpl"></bean>
 	<bean id="ticketService" class="lab.io.rush.service.impl.TicketServiceImpl"></bean>
 	<bean id="ticketDao" class="lab.io.rush.dao.impl.TicketDaoImpl"></bean>
 	<bean id="purchaseRecordDao" class="lab.io.rush.dao.impl.PurchaseRecordDaoImpl"></bean>
+	<bean id="emailService" class="lab.io.rush.service.impl.EmailServiceImpl"></bean>
 </beans>  

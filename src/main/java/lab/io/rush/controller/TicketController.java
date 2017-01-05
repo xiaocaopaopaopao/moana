@@ -25,10 +25,6 @@ public class TicketController extends MultiActionController {
 	@Autowired
 	private TicketService ticketService;
 
-	public void setTicketService(TicketService ticketService) {
-		this.ticketService = ticketService;
-	}
-
 	@RequestMapping(value = { "/getTicketNum.do" }, method = { RequestMethod.GET })
 	private void getTicketNum(HttpServletResponse response,
 			@RequestParam("tid") String tid) {

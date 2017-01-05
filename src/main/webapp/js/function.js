@@ -31,22 +31,20 @@ function registerUser() {
 		url : "user/register.do",
 		type : "post",
 		async : false,
+		dataType:"json",
 		data : {
 			"email" : email,
 			"password" : password
 		},
 		success : function(data, status) {
-			if(data == "emailIsRegistered")
-				alert("该邮箱已经被注册！");
-			else if(data == "registerFailed")
-				alert("注册失败，请重试！");
-			else if(data == "registerSuccess"){
+			if(data.code == "101"){
 				$(".register_content .emailDiv input").val("");
 				$(".register_content .passwordDiv input").val("");
 				$(".register_content .repasswordDiv input").val("");
-				alert("恭喜您，注册成功！");
+				alert("恭喜您," + data.message);
 				switchDiv();
-			}
+			}else
+				alert("很遗憾," + data.message);
 		}
 	});
 }
@@ -80,15 +78,16 @@ function login(){
 		url : "user/login.do",
 		type : "post",
 		async : false,
+		dataType:"json",
 		data : {
 			"email" : email,
 			"password" : password
 		},
 		success : function(data, status) {
-			if(data == "loginSuccess")
+			if(data.code == "201")
 				location.replace(location.href);
-			else if(data == "loginFailed")
-				alert("登录失败，请重试！");
+			else
+				alert("很遗憾," + data.message);
 		}
 	});
 }
@@ -100,31 +99,37 @@ function logout(){
 	$.ajax({
 		url : "user/logout.do",
 		type : "get",
+		dataType:"json",
 		async : false,
 		success : function(data, status) {
-			if(data == "logoutSuccess"){
-				alert("账号注销成功！");
+			if(data.code == "301"){
+				alert("恭喜您," + data.message);
 				location.replace(location.href);
-			}
+			}else
+				alert("很遗憾," + data.message);
 		}
 	});
 }
 
+/**
+ * 购票
+ */
 function purchaseTicket(){
 	var num = $("#ticketSelected").val();
 	$.ajax({
 		url : "ticket/purchaseTicket.do",
 		type : "get",
 		async : false,
+		dataType:"json",
 		data : {
 			"tid": "4028821f5962c187015962c1bb0d0000",
 			"num" : num
 		},
 		success : function(data, status) {
-			if(data == "purchaseSucces")
-				alert("恭喜您，抢购成功！");
-			else if(data == "purchaseFailed")
-				alert("抢购失败，请重试！");
+			if(data.code == "101")
+				alert("恭喜您," + data.message);
+			else
+				alert("很遗憾," + data.message);
 		}
 	});
 }

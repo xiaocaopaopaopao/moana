@@ -20,8 +20,8 @@ public class PurchaseRecordDaoImpl implements PurchaseRecordDao {
 	public boolean insert(PurchaseRecord purchaseRecord) {
 		PersistenceManager pm = persistenceManagerFactory
 				.getPersistenceManager();
-		boolean result = false;
 		PurchaseRecord record = pm.makePersistent(purchaseRecord);
+		boolean result = false;
 		if (record != null)
 			result = true;
 		return result;
@@ -31,13 +31,12 @@ public class PurchaseRecordDaoImpl implements PurchaseRecordDao {
 	public int getTicketNumPurchasedByUidAndTid(String uid, String tid) {
 		PersistenceManager pm = persistenceManagerFactory
 				.getPersistenceManager();
-		int num = -1;
 		Query<?> q = pm.newQuery(PurchaseRecord.class, "uid =='" + uid
 				+ "'&& tid == '" + tid + "'");
 		@SuppressWarnings("unchecked")
 		List<PurchaseRecord> records = (List<PurchaseRecord>) q.execute();
+		int num = 0;
 		if (records != null) {
-			num = 0;
 			for (PurchaseRecord r : records) {
 				num += r.getNum();
 			}

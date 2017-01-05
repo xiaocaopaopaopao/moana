@@ -216,6 +216,13 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.18</version>
 		</dependency>
+		
+		<!--json依赖 -->
+		<dependency>
+           <groupId>org.json</groupId>
+           <artifactId>json</artifactId>
+           <version>20160212</version>
+        </dependency>
 	</dependencies>
 
 	<build>

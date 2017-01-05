@@ -2,15 +2,17 @@ package lab.io.rush.dto;
 
 import org.json.JSONObject;
 
-public class PurchaseStatusDto {
+public class UserStatusDto {
 	private boolean status;
 	private int code;
 	private String message;
 
-	public PurchaseStatusDto(PurchaseStatusEnum statusEnum) {
+	public UserStatusDto(UserStatusEnum statusEnum) {
 		this.code = statusEnum.getCode();
 		this.message = statusEnum.getMessage();
-		if (statusEnum == PurchaseStatusEnum.SUCCESS)
+		if (statusEnum == UserStatusEnum.REGISTER_SUCCESS
+				|| statusEnum == UserStatusEnum.LOGIN_SUCCESS
+				|| statusEnum == UserStatusEnum.LOGOUT_SUCCESS)
 			this.status = true;
 		else
 			this.status = false;

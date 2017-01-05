@@ -1,11 +1,11 @@
 package lab.io.rush.dto;
 
 public enum PurchaseStatusEnum {
-	NOT_ENOUGH(-3, "¿â´æ²»×ã£¡"), 
-	PURCHASE_FAIL(-2, "ÇÀ¹ºÊ§°Ü£¡"), 
-	REPEAT_PURCHASE(-1, "ÖØ¸´ÇÀ¹º£¡"), 
-	PURCHASE_ERROR(0, "ÇÀ¹º´íÎó£¡"), 
-	SUCCESS(1, "ÇÀ¹º³É¹¦£¡");
+	NOT_ENOUGH(201, "¿â´æ²»×ã£¡"), 
+	PURCHASE_FAIL(202, "ÇÀ¹ºÊ§°Ü£¡"), 
+	MORE_THAN_NUM(203, "¹ºÂòÆ±Êý³¬³ö¶¨¶î£¡"), 
+	PURCHASE_ERROR(204, "ÇÀ¹º´íÎó£¡"), 
+	SUCCESS(101, "ÇÀ¹º³É¹¦£¡");
 
 	private int code;
 	private String message;

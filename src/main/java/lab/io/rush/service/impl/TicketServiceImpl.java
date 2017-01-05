@@ -5,6 +5,8 @@ import java.util.Date;
 
 import lab.io.rush.dao.PurchaseRecordDao;
 import lab.io.rush.dao.TicketDao;
+import lab.io.rush.dto.PurchaseStatusDto;
+import lab.io.rush.dto.PurchaseStatusEnum;
 import lab.io.rush.model.PurchaseRecord;
 import lab.io.rush.model.Ticket;
 import lab.io.rush.service.TicketService;
@@ -26,16 +28,19 @@ public class TicketServiceImpl implements TicketService {
 	}
 
 	@Override
-	public boolean snapMovieTicket(String uid, String tid, int num) {
+	public PurchaseStatusDto snapMovieTicket(String uid, String tid, int num) {
 
 		Ticket ticket = ticketDao.selectById(tid);
 		int t_num = ticket.getNum(); // 余票数量
 		int p_num = purchaseRecordDao
 				.getTicketNumPurchasedByUidAndTid(uid, tid); // 该用户已购买该电影票数量
 
-		// 判断是否符合抢购条件
-		if (p_num == -1 || p_num + num > 2 || t_num < num)
-			return false;
+		//购买票数超出定额
+		if (p_num + num > 2)
+			return new PurchaseStatusDto(PurchaseStatusEnum.MORE_THAN_NUM);
+		// 库存不足
+		if (t_num < num)
+			return new PurchaseStatusDto(PurchaseStatusEnum.NOT_ENOUGH);
 
 		// 插入购买记录
 		PurchaseRecord purchaseRecord = new PurchaseRecord();
@@ -44,10 +49,10 @@ public class TicketServiceImpl implements TicketService {
 		purchaseRecord.setNum(num);
 		purchaseRecord.setPurchaseTime(new Timestamp(new Date().getTime()));
 		purchaseRecordDao.insert(purchaseRecord);
-		
+
 		// 更新电影票数量
 		ticket.setNum(ticket.getNum() - num);
 
-		return true;
+		return new PurchaseStatusDto(PurchaseStatusEnum.SUCCESS);
 	}
 }

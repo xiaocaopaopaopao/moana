@@ -1,6 +1,8 @@
 package lab.io.rush.service.impl;
 
 import lab.io.rush.dao.UserDao;
+import lab.io.rush.dto.UserStatusDto;
+import lab.io.rush.dto.UserStatusEnum;
 import lab.io.rush.model.User;
 import lab.io.rush.service.UserService;
 
@@ -21,10 +23,10 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public boolean register(User user) {
+	public UserStatusDto register(User user) {
 		if (userDao.insert(user))
-			return true;
-		return false;
+			return new UserStatusDto(UserStatusEnum.REGISTER_SUCCESS);
+		return new UserStatusDto(UserStatusEnum.REGISTER_FAIL);
 	}
 
 	@Override

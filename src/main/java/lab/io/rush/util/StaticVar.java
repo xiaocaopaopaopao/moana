@@ -13,4 +13,8 @@ public class StaticVar {
 	public final static String LoginFailed = "loginFailed";
 	
 	public final static String LogoutSuccess = "logoutSuccess";
+	
+	public final static String PurchaseSucces = "purchaseSucces";
+	
+	public final static String PurchaseFailed = "purchaseFailed";
 }

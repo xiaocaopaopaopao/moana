@@ -3,8 +3,8 @@
  */
 function refreshPage() {
 	var ticketLast = $("#ticket_last");
-	$.get("ticket/getNumOfTicket.do", {
-		id : "0"
+	$.get("ticket/getTicketNum.do", {
+		tid : "4028821f5962c187015962c1bb0d0000"
 	}, function(data, status) {
 		ticketLast.text(data);
 	});
@@ -93,6 +93,9 @@ function login(){
 	});
 }
 
+/**
+ * 注销登出
+ */
 function logout(){
 	$.ajax({
 		url : "user/logout.do",
@@ -103,6 +106,25 @@ function logout(){
 				alert("账号注销成功！");
 				location.replace(location.href);
 			}
+		}
+	});
+}
+
+function purchaseTicket(){
+	var num = $("#ticketSelected").val();
+	$.ajax({
+		url : "ticket/purchaseTicket.do",
+		type : "get",
+		async : false,
+		data : {
+			"tid": "4028821f5962c187015962c1bb0d0000",
+			"num" : num
+		},
+		success : function(data, status) {
+			if(data == "purchaseSucces")
+				alert("恭喜您，抢购成功！");
+			else if(data == "purchaseFailed")
+				alert("抢购失败，请重试！");
 		}
 	});
 }

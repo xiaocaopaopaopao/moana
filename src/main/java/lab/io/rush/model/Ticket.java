@@ -1,20 +1,30 @@
 package lab.io.rush.model;
 
-import java.io.Serializable;
+import java.sql.Date;
 
-public class Ticket implements Serializable{
-	
-	private static final long serialVersionUID = 4348481269232349611L;
-	private Integer id;
+import javax.jdo.annotations.IdGeneratorStrategy;
+import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
+
+@PersistenceCapable(table = "ticket")
+public class Ticket {
+	@PrimaryKey
+	@Persistent(valueStrategy = IdGeneratorStrategy.UUIDHEX)
+	private String tid;
+	@Persistent
 	private String name;
-	private Integer number;
+	@Persistent
+	private int num;
+	@Persistent
+	private Date onlineDate;
 
-	public Integer getId() {
-		return id;
+	public String getTid() {
+		return tid;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setTid(String tid) {
+		this.tid = tid;
 	}
 
 	public String getName() {
@@ -25,11 +35,19 @@ public class Ticket implements Serializable{
 		this.name = name;
 	}
 
-	public Integer getNumber() {
-		return number;
+	public int getNum() {
+		return num;
 	}
 
-	public void setNumber(Integer number) {
-		this.number = number;
+	public void setNum(int num) {
+		this.num = num;
+	}
+
+	public Date getOnlineDate() {
+		return onlineDate;
+	}
+
+	public void setOnlineDate(Date onlineDate) {
+		this.onlineDate = onlineDate;
 	}
 }

@@ -20,13 +20,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/operation.js"></script>
 	<script type="text/javascript" src="js/function.js"></script>
-	
-	<!--  
+
 	<script type="text/javascript">
 	    $(function(){
+	       refreshPage();
 	       setInterval("refreshPage()",3000);
         });
-	</script>-->
+	</script>
   </head>
   
   <body>
@@ -106,7 +106,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
               <div id="ticket_mess" class="movie">
                   <a><b>电影票剩余(张数):</b></a>
               </div>
-              <div id="ticket_last" align="center">300</div>
+              <div id="ticket_last" align="center"></div>
               <table id="ticket_selected" align="center">
                   <tr>
                      <td align="center"><a>每个账号最多只能购买2张</a></td>
@@ -114,13 +114,19 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <tr>
                      <td align="center">
                          <em class="suba">-</em>
-                         <input type="text" id="ticketSelected" name="ticketSelected" value="0" style="text-align: right;">
+                         <input type="text" id="ticketSelected" value="0" style="text-align: right;">
                          <em class="adda">+</em>
                      </td>
                   </tr>
                   <tr id="whitespace"></tr>
                   <tr>
-                     <td align="center"><input type="button" id="ensure" value="确认购买" onclick="pop_loginBox();"></td>
+                     <td align="center"><input type="button" id="ensure" value="确认购买" 
+                         <% if(user == null){%>
+                              onclick="pop_loginBox();">
+                         <%}else{%>
+                              onclick="purchaseTicket();">
+                         <%} %>
+                     </td>
                   </tr>
               </table>
           </div>

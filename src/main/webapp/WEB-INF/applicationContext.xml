@@ -23,6 +23,8 @@
 	<!-- 导入外部的properties文件 -->
 	<context:property-placeholder location="classpath:redis.properties"
 		ignore-unresolvable="true" />
+	<context:property-placeholder location="classpath:jdbc.properties"
+		ignore-unresolvable="true" />
 
 	<!-- 对模型视图名称的解析 -->
 	<bean id="viewResolver"
@@ -37,7 +39,7 @@
 		<property name="maxWaitMillis" value="${redis.maxWait}" />
 		<property name="testOnBorrow" value="${redis.testOnBorrow}" />
 	</bean>
-	
+
 	<!-- redis服务器中心 -->
 	<bean id="connectionFactory"
 		class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
@@ -47,7 +49,7 @@
 		<property name="password" value="${redis.pass}" />
 		<property name="timeout" value="${redis.timeout}"></property>
 	</bean>
-	
+
 	<bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
 		<property name="connectionFactory" ref="connectionFactory" />
 		<property name="keySerializer">
@@ -60,23 +62,24 @@
 		</property>
 	</bean>
 
+	<!-- 配置数据池 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+
 	<!-- 配置 PersistenceManagerFactory -->
-	<bean id="myPmf"
-		class="org.springframework.orm.jdo.LocalPersistenceManagerFactoryBean">
-		<property name="jdoProperties">
-			<props>
-				<prop key="javax.jdo.PersistenceManagerFactoryClass">
-					org.datanucleus.api.jdo.JDOPersistenceManagerFactory
-				</prop>
-				<prop key="javax.jdo.option.ConnectionDriverName">com.mysql.jdbc.Driver</prop>
-				<prop key="javax.jdo.option.ConnectionURL">jdbc:mysql://192.168.2.110:3306/moana</prop>
-				<prop key="javax.jdo.option.ConnectionUserName">root</prop>
-				<prop key="javax.jdo.option.ConnectionPassword">123</prop>
-				<prop key="org.jpox.autoCreateSchema">true</prop>
-				<prop key="datanucleus.query.sql.allowAll">true</prop>
-				<prop key="" ></prop>
-			</props>
-		</property>
+	<bean id="myPmf" class="org.datanucleus.api.jdo.JDOPersistenceManagerFactory"
+		destroy-method="close">
+		<property name="connectionFactory" ref="dataSource" />
+		<property name="nontransactionalRead" value="true" />
+	</bean>
+
+	<bean id="jdoTemplate" class="org.springframework.orm.jdo.JdoTemplate">
+		<property name="persistenceManagerFactory" ref="myPmf"></property>
 	</bean>
 
 	<!-- 配置事物管理器 -->
@@ -87,8 +90,9 @@
 	<!-- 启用事务注解 -->
 	<tx:annotation-driven transaction-manager="myTxManager"></tx:annotation-driven>
 
-	<bean id="ticketService" class="lab.io.rush.service.impl.TicketServiceImpl"></bean>
-	<bean id="ticketDao" class="lab.io.rush.dao.impl.TicketDaoImpl"></bean>
 	<bean id="userService" class="lab.io.rush.service.impl.UserServiceImpl"></bean>
 	<bean id="userDao" class="lab.io.rush.dao.impl.UserDaoImpl"></bean>
+	<bean id="ticketService" class="lab.io.rush.service.impl.TicketServiceImpl"></bean>
+	<bean id="ticketDao" class="lab.io.rush.dao.impl.TicketDaoImpl"></bean>
+	<bean id="purchaseRecordDao" class="lab.io.rush.dao.impl.PurchaseRecordDaoImpl"></bean>
 </beans>  

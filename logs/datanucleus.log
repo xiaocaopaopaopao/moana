@@ -139,3 +139,17 @@
 18:24:09,282 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 4.1.16) for API "JDO"
 18:24:09,454 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
 18:24:09,454 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes.
+12:52:36,476 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+12:52:36,523 (main) ERROR [DataNucleus.Enhancer] - DataNucleus Enhancer completed with an error. Please review the enhancer log (at DEBUG level) for full details. Some classes may have been enhanced but some caused errors
+No "persistence.xml" files were found in the CLASSPATH yet you specified as input the name ("model") of a "persistence-unit" to enhance. You must have a valid "persistence.xml" file in the CLASSPATH in a valid location to use this option.
+org.datanucleus.enhancer.NucleusEnhanceException: No "persistence.xml" files were found in the CLASSPATH yet you specified as input the name ("model") of a "persistence-unit" to enhance. You must have a valid "persistence.xml" file in the CLASSPATH in a valid location to use this option.
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:775)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+21:46:43,313 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+21:46:43,332 (main) ERROR [DataNucleus.Enhancer] - DataNucleus Enhancer completed with an error. Please review the enhancer log (at DEBUG level) for full details. Some classes may have been enhanced but some caused errors
+No "persistence.xml" files were found in the CLASSPATH yet you specified as input the name ("model") of a "persistence-unit" to enhance. You must have a valid "persistence.xml" file in the CLASSPATH in a valid location to use this option.
+org.datanucleus.enhancer.NucleusEnhanceException: No "persistence.xml" files were found in the CLASSPATH yet you specified as input the name ("model") of a "persistence-unit" to enhance. You must have a valid "persistence.xml" file in the CLASSPATH in a valid location to use this option.
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:775)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)

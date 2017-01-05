@@ -33,7 +33,6 @@ public class UserController extends MultiActionController {
 		PrintWriter out = null;
 		try {
 			String result = null;
-			out = response.getWriter();
 			// 检查邮箱是否已经被注册
 			boolean isReg = userService.isUserRegistered(email);
 			if (isReg)
@@ -44,6 +43,7 @@ public class UserController extends MultiActionController {
 				user.setPassword(password);
 				user.setEmail(email);
 				user.setRegisterTime(new Timestamp(new Date().getTime()));
+				
 				// 注册用户，若成功则返回true，否则返回false
 				boolean isRegSucceed = userService.register(user);
 				if (isRegSucceed)
@@ -51,6 +51,8 @@ public class UserController extends MultiActionController {
 				else
 					result = StaticVar.RegisterFailed;
 			}
+			
+			out = response.getWriter();
 			out.write(result);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -67,18 +69,22 @@ public class UserController extends MultiActionController {
 		PrintWriter out = null;
 		try {
 			String result = null;
-			out = response.getWriter();
 			User user = new User();
 			user.setEmail(email);
 			user.setPassword(password);
+			
 			// 用户登录，若成功则返回true，否则返回false
 			User u = userService.login(user);
 			if (u != null) {
-				u.setPassword(null);
+				user.setUid(u.getUid());
+				user.setEmail(email);
+				user.setPassword(null);
 				session.setAttribute("user", user);
 				result = StaticVar.LoginSuccess;
 			} else
 				result = StaticVar.LoginFailed;
+			
+			out = response.getWriter();
 			out.write(result);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -90,16 +96,11 @@ public class UserController extends MultiActionController {
 
 	@RequestMapping(value = { "/logout.do" }, method = { RequestMethod.GET })
 	public void logout(HttpSession session, HttpServletResponse response) {
-		PrintWriter out = null;
 		try {
 			session.removeAttribute("user");
-			out = response.getWriter();
-			out.write(StaticVar.LogoutSuccess);
+			response.getWriter().write(StaticVar.LogoutSuccess);
 		} catch (IOException e) {
 			e.printStackTrace();
-		} finally {
-			if (out != null)
-				out.close();
-		}
+		} 
 	}
 }

@@ -18,57 +18,38 @@ public class UserDaoImpl implements UserDao {
 
 	@Override
 	public boolean insert(User user) {
-		PersistenceManager pm = null;
-		boolean result = false;
-		try {
-			pm = persistenceManagerFactory.getPersistenceManager();
-			User u = pm.makePersistent(user);
-			if (u != null)
-				result = true;
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			pm.close();
-		}
-		return result;
+		PersistenceManager pm = persistenceManagerFactory
+				.getPersistenceManager();
+		User u = pm.makePersistent(user);
+		if (u != null)
+			return true;
+		return false;
 	}
 
 	@Override
 	public User selectByEmail(String email) {
-		PersistenceManager pm = null;
+		PersistenceManager pm = persistenceManagerFactory
+				.getPersistenceManager();
+		Query<?> q = pm.newQuery(User.class, "email =='" + email + "'");
+		@SuppressWarnings("unchecked")
+		List<User> users = (List<User>) q.execute();
 		User u = null;
-		try {
-			pm = persistenceManagerFactory.getPersistenceManager();
-			Query<?> q = pm.newQuery(User.class, "email =='" + email + "'");
-			@SuppressWarnings("unchecked")
-			List<User> users = (List<User>) q.execute();
-			if (users != null && !users.isEmpty())
-				u = users.get(0);
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			pm.close();
-		}
+		if (users != null && !users.isEmpty())
+			u = users.get(0);
 		return u;
 	}
 
 	@Override
 	public User selectByEmailAndPassword(String email, String password) {
-		PersistenceManager pm = null;
+		PersistenceManager pm = persistenceManagerFactory
+				.getPersistenceManager();
+		Query<?> q = pm.newQuery(User.class, "email =='" + email
+				+ "'&& password == '" + password + "'");
+		@SuppressWarnings("unchecked")
+		List<User> users = (List<User>) q.execute();
 		User u = null;
-		try {
-			pm = persistenceManagerFactory.getPersistenceManager();
-			Query<?> q = pm.newQuery(User.class, "email =='" + email
-					+ "'&& password == '" + password + "'");
-			@SuppressWarnings("unchecked")
-			List<User> users = (List<User>) q.execute();
-			if (users != null && !users.isEmpty())
-				u = users.get(0);
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			pm.close();
-		}
+		if (users != null && !users.isEmpty())
+			u = users.get(0);
 		return u;
 	}
 }

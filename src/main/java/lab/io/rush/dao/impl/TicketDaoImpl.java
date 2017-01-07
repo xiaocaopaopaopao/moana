@@ -11,6 +11,11 @@ import lab.io.rush.model.Ticket;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * 票务服务持久层接口实现类
+ * @author cqy
+ * @data 2017年1月6日 下午2:20:53
+ */
 public class TicketDaoImpl implements TicketDao {
 
 	@Autowired
@@ -19,9 +24,10 @@ public class TicketDaoImpl implements TicketDao {
 	@Override
 	public int getTicketNum(String tid) {
 		Ticket ticket = selectById(tid);
-		if (ticket != null)
+		if(ticket != null)
 			return ticket.getNum();
-		return -1;
+		else
+			return -1;
 	}
 
 	@Override
@@ -39,8 +45,7 @@ public class TicketDaoImpl implements TicketDao {
 
 	@Override
 	public boolean update(Ticket ticket) {
-		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 }

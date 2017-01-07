@@ -9,6 +9,11 @@ import lab.io.rush.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * 用户服务接口实现类
+ * @author cqy
+ * @data 2017年1月6日 上午11:45:38
+ */
 @Transactional
 public class UserServiceImpl implements UserService {
 

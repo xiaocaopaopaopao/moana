@@ -9,6 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 
+/**
+ * 邮箱服务实现类
+ * @author cqy
+ * @data 2017年1月6日 上午11:44:47
+ */
 public class EmailServiceImpl implements EmailService {
 
 	@Autowired

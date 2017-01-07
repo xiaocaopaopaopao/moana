@@ -11,6 +11,11 @@ import lab.io.rush.model.PurchaseRecord;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * 购票服务持久层接口实现类
+ * @author cqy
+ * @data 2017年1月6日 下午2:20:12
+ */
 public class PurchaseRecordDaoImpl implements PurchaseRecordDao {
 
 	@Autowired

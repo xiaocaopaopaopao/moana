@@ -35,14 +35,14 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
-	<!-- jedis配置 -->
+	<!-- 配置JedisPoolConfig实例 -->  
 	<bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
 		<property name="maxIdle" value="${redis.maxIdle}" />
 		<property name="maxWaitMillis" value="${redis.maxWait}" />
 		<property name="testOnBorrow" value="${redis.testOnBorrow}" />
 	</bean>
 
-	<!-- redis服务器中心 -->
+	<!-- 配置JedisConnectionFactory -->  
 	<bean id="connectionFactory"
 		class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
 		<property name="poolConfig" ref="poolConfig" />
@@ -52,6 +52,7 @@
 		<property name="timeout" value="${redis.timeout}"></property>
 	</bean>
 
+    <!-- 配置RedisTemplate -->  
 	<bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
 		<property name="connectionFactory" ref="connectionFactory" />
 		<property name="keySerializer">
@@ -63,6 +64,19 @@
 				class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />
 		</property>
 	</bean>
+	
+	 <!-- 配置RedisCacheManager -->  
+    <bean id="redisCacheManager" class="org.springframework.data.redis.cache.RedisCacheManager">  
+        <constructor-arg name="redisOperations" ref="redisTemplate" />  
+        <property name="defaultExpiration" value="${redis.expiration}"/>  
+    </bean>  
+	
+	<!-- 配置RedisCacheConfig -->  
+    <bean id="redisCacheConfig" class="lab.io.rush.cache.redis.RedisCacheConfig">  
+        <constructor-arg ref="connectionFactory" />  
+        <constructor-arg ref="redisTemplate" />  
+        <constructor-arg ref="redisCacheManager" />  
+    </bean>  
 
 	<!-- 配置数据池 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"

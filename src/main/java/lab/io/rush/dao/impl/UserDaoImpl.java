@@ -11,6 +11,11 @@ import lab.io.rush.model.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * 用户服务持久层接口实现类
+ * @author cqy
+ * @data 2017年1月6日 下午2:18:44
+ */
 public class UserDaoImpl implements UserDao {
 
 	@Autowired

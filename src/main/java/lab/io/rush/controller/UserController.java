@@ -1,7 +1,5 @@
 package lab.io.rush.controller;
 
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Timestamp;
 import java.util.Date;
 
@@ -12,6 +10,7 @@ import lab.io.rush.dto.UserStatusDto;
 import lab.io.rush.dto.UserStatusEnum;
 import lab.io.rush.model.User;
 import lab.io.rush.service.UserService;
+import lab.io.rush.util.ResponseHelper;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,6 +19,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
 
+/**
+ * 用户服务Web接口
+ * @author cqy
+ * @data 2017年1月6日 上午11:34:35
+ */
 @Controller
 @RequestMapping("/user")
 public class UserController extends MultiActionController {
@@ -27,12 +31,16 @@ public class UserController extends MultiActionController {
 	@Autowired
 	private UserService userService;
 
+	/**
+	 * 注册接口
+	 * @param email 邮箱
+	 * @param password 密码
+	 */
 	@RequestMapping(value = { "/register.do" }, method = { RequestMethod.POST })
 	public void register(HttpServletResponse response,
 			@RequestParam("email") String email,
 			@RequestParam("password") String password) {
 		UserStatusDto userStatusDto = null;
-		PrintWriter out = null;
 		try {
 			// 检查邮箱是否已经被注册
 			boolean isReg = userService.isUserRegistered(email);
@@ -48,28 +56,25 @@ public class UserController extends MultiActionController {
 				userStatusDto = userService.register(user);
 			}
 		} catch (Exception e) {
-			userStatusDto = new UserStatusDto(UserStatusEnum.REGISTER_ERROR);
-		}
-
-		response.setCharacterEncoding("UTF-8");
-		response.setContentType("application/json; charset=utf-8");
-		try {
-			out = response.getWriter();
-			out.write(userStatusDto.toJson().toString());
-		} catch (IOException e) {
+			if(userStatusDto == null)
+				userStatusDto = new UserStatusDto(UserStatusEnum.REGISTER_ERROR);
 			e.printStackTrace();
-		} finally {
-			if (out != null)
-				out.close();
 		}
+		//返回
+		new ResponseHelper().send(response, userStatusDto);
 	}
 
+	/**
+	 * 登录接口
+	 * @param session 当前session对象 
+	 * @param email 邮箱
+	 * @param password 密码
+	 */
 	@RequestMapping(value = { "/login.do" }, method = { RequestMethod.POST })
 	public void login(HttpSession session, HttpServletResponse response,
 			@RequestParam("email") String email,
 			@RequestParam("password") String password) {
 		UserStatusDto userStatusDto = null;
-		PrintWriter out = null;
 		try {
 			User user = new User();
 			user.setEmail(email);
@@ -85,34 +90,27 @@ public class UserController extends MultiActionController {
 			} else
 				userStatusDto = new UserStatusDto(UserStatusEnum.LOGIN_FAIL);
 		} catch (Exception e) {
+			if(userStatusDto == null)
+				userStatusDto = new UserStatusDto(UserStatusEnum.LOGIN_ERROR);
 			e.printStackTrace();
-			userStatusDto = new UserStatusDto(UserStatusEnum.LOGIN_ERROR);
 		}
-
-		response.setCharacterEncoding("UTF-8");
-		response.setContentType("application/json; charset=utf-8");
-		try {
-			out = response.getWriter();
-			out.write(userStatusDto.toJson().toString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (out != null)
-				out.close();
-		}
+		//返回
+		new ResponseHelper().send(response, userStatusDto);
 	}
 
+	/**
+	 * 登出接口
+	 * @param session 当前session对象
+	 */
 	@RequestMapping(value = { "/logout.do" }, method = { RequestMethod.GET })
 	public void logout(HttpSession session, HttpServletResponse response) {
-		response.setCharacterEncoding("UTF-8");
-		response.setContentType("application/json; charset=utf-8");
-		try {
+		UserStatusDto userStatusDto = null;
+		if(session.getAttribute("user") != null){
 			session.removeAttribute("user");
-			UserStatusDto userStatusDto = new UserStatusDto(
-					UserStatusEnum.LOGOUT_SUCCESS);
-			response.getWriter().write(userStatusDto.toJson().toString());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+			userStatusDto = new UserStatusDto(UserStatusEnum.LOGOUT_SUCCESS);
+		}else
+			userStatusDto = new UserStatusDto(UserStatusEnum.USER_NO_LOGIN);
+		//返回
+		new ResponseHelper().send(response, userStatusDto);
 	}
 }

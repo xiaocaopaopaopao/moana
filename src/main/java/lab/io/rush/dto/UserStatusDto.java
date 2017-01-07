@@ -2,7 +2,12 @@ package lab.io.rush.dto;
 
 import org.json.JSONObject;
 
-public class UserStatusDto {
+/**
+ * 用户状态DTO
+ * @author cqy
+ * @data 2017年1月6日 上午11:42:39
+ */
+public class UserStatusDto implements Dto{
 	private boolean status;
 	private int code;
 	private String message;
@@ -42,6 +47,7 @@ public class UserStatusDto {
 		this.message = message;
 	}
 
+	@Override
 	public JSONObject toJson() {
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("code", code);

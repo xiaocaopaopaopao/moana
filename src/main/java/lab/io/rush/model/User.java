@@ -1,5 +1,6 @@
 package lab.io.rush.model;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 import javax.jdo.annotations.IdGeneratorStrategy;
@@ -7,17 +8,29 @@ import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
+/**
+ * 用户模型
+ * @author cqy
+ * @data 2017年1月6日 上午11:27:17
+ */
 @PersistenceCapable(table="user")
-public class User {
+public class User implements Serializable{
+	
+	private static final long serialVersionUID = 8945791775894037015L;
+	
 	@PrimaryKey
 	@Persistent(valueStrategy = IdGeneratorStrategy.UUIDHEX)
 	private String uid;
+	
 	@Persistent
 	private String username;
+	
 	@Persistent
 	private String password;
+	
 	@Persistent
 	private String email;
+	
 	@Persistent
 	private Timestamp registerTime;
 	

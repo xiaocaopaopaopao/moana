@@ -17,6 +17,11 @@ import lab.io.rush.service.TicketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * 票务服务接口实现类
+ * @author cqy
+ * @data 2017年1月6日 上午11:45:12
+ */
 @Transactional
 public class TicketServiceImpl implements TicketService {
 
@@ -61,9 +66,10 @@ public class TicketServiceImpl implements TicketService {
 
 		// 更新电影票数量
 		ticket.setNum(ticket.getNum() - num);
+		ticketDao.update(ticket);
 
 		// 邮件通知
-		String content = "Congratulations, you got %s Avatar2 ticket(s) at %s";
+		String content = "Congratulations, you got %s Avatar2 movie ticket(s) at %s, hava a good time!";
 		content = String.format(content, num,timestamp.toString());
 		emailService.sendEmail(user.getEmail(), "Congratulations", content);
 

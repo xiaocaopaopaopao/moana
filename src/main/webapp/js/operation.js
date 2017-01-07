@@ -13,8 +13,10 @@ function switchDiv(){
 	if(display == "none"){
 		$(".login_content").show();
 		$(".register_content").hide();
+		$("#title_logo_word a").text("登录");
 	}else{
 		$(".login_content").hide();
 		$(".register_content").show();
+		$("#title_logo_word a").text("注册");
 	}
 }

@@ -33049,3 +33049,625 @@ org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.imp
 14:58:33,262 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
 14:58:33,262 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
 14:58:33,262 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:31:11,081 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:31:11,084 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig$1.class" doesnt exist!
+15:31:11,084 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig.class" doesnt exist!
+15:31:11,085 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:31:11,085 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:31:11,085 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\PurchaseRecordDao.class" doesnt exist!
+15:31:11,085 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:31:11,085 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\UserDao.class" doesnt exist!
+15:31:11,086 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\PurchaseRecordDaoImpl.class" doesnt exist!
+15:31:11,086 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:31:11,086 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:31:11,086 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\Dto.class" doesnt exist!
+15:31:11,086 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusDto.class" doesnt exist!
+15:31:11,087 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusEnum.class" doesnt exist!
+15:31:11,087 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusDto.class" doesnt exist!
+15:31:11,087 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusEnum.class" doesnt exist!
+15:31:11,087 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\PurchaseRecord.class" doesnt exist!
+15:31:11,087 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:31:11,088 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" doesnt exist!
+15:31:11,088 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\EmailService.class" doesnt exist!
+15:31:11,088 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:31:11,088 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\UserService.class" doesnt exist!
+15:31:11,088 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl$1.class" doesnt exist!
+15:31:11,089 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl.class" doesnt exist!
+15:31:11,089 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:31:11,089 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\UserServiceImpl.class" doesnt exist!
+15:31:11,089 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\util\ResponseHelper.class" doesnt exist!
+15:31:11,089 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:31:11,090 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:31:11,090 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\RedisGeneratorDao.class" doesnt exist!
+15:31:11,090 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\Test.class" doesnt exist!
+15:31:11,090 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:31:11,090 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$1.class" doesnt exist!
+15:31:11,091 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$2.class" doesnt exist!
+15:31:11,091 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$3.class" doesnt exist!
+15:31:11,091 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:31:11,091 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:31:11,092 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:31:11,092 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\User.class" doesnt exist!
+15:31:11,092 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:31:11,092 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:31:11,093 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+15:31:11,094 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+15:32:37,339 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:32:37,374 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig$1.class" doesnt exist!
+15:32:37,375 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig.class" doesnt exist!
+15:32:37,375 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:32:37,375 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:32:37,375 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\PurchaseRecordDao.class" doesnt exist!
+15:32:37,375 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:32:37,375 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\UserDao.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\PurchaseRecordDaoImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\Dto.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusDto.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusEnum.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusDto.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusEnum.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\PurchaseRecord.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\EmailService.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\UserService.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl$1.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\UserServiceImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\util\ResponseHelper.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\RedisGeneratorDao.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\Test.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$1.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$2.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$3.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\User.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:32:37,377 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:32:37,377 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+15:32:37,377 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+15:37:14,100 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:37:14,120 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig$1.class" doesnt exist!
+15:37:14,120 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig.class" doesnt exist!
+15:37:14,124 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:37:14,124 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:37:14,124 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\PurchaseRecordDao.class" doesnt exist!
+15:37:14,124 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:37:14,124 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\UserDao.class" doesnt exist!
+15:37:14,124 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\PurchaseRecordDaoImpl.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\Dto.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusDto.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusEnum.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusDto.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusEnum.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\PurchaseRecord.class" doesnt exist!
+15:37:14,125 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\EmailService.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\UserService.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl$1.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\UserServiceImpl.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\util\ResponseHelper.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\RedisGeneratorDao.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\Test.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$1.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$2.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$3.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\User.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:37:14,135 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:37:14,135 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+15:37:14,135 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+15:37:38,892 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:37:38,892 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig$1.class" doesnt exist!
+15:37:38,892 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\cache\redis\RedisCacheConfig.class" doesnt exist!
+15:37:38,892 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:37:38,892 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\PurchaseRecordDao.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\UserDao.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\PurchaseRecordDaoImpl.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\Dto.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusDto.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\PurchaseStatusEnum.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusDto.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\dto\UserStatusEnum.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\PurchaseRecord.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\model\User.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\EmailService.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\UserService.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl$1.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\EmailServiceImpl.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\service\impl\UserServiceImpl.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\classes\lab\io\rush\util\ResponseHelper.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\TicketController.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\controller\UserController.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\RedisGeneratorDao.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\Test.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\TicketDao.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$1.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$2.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl$3.class" doesnt exist!
+15:37:38,902 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\TicketDaoImpl.class" doesnt exist!
+15:37:38,912 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\dao\impl\UserDaoImpl.class" doesnt exist!
+15:37:38,912 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\Ticket.class" doesnt exist!
+15:37:38,912 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\model\User.class" doesnt exist!
+15:37:38,912 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\TicketService.class" doesnt exist!
+15:37:38,912 (main) ERROR [DataNucleus.Enhancer] - Input file "D:\workspace\moana\target\moana\WEB-INF\classes\lab\io\rush\service\impl\TicketServiceImpl.class" doesnt exist!
+15:37:38,912 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+15:37:38,912 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+15:46:05,901 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:46:06,891 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:06,891 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:06,891 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:06,891 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:06,891 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:06,931 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:46:06,931 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:46:06,941 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:46:06,941 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:46:57,104 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:46:57,409 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:57,409 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:57,409 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:57,409 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:57,409 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:46:57,449 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:46:57,449 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:46:57,449 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:46:57,449 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:49:12,132 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:49:12,717 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:49:12,718 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:49:12,719 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:49:12,720 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:49:12,720 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:49:12,774 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:49:12,775 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:49:12,782 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:49:12,782 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:51:44,407 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:51:44,810 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:51:44,810 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:51:44,810 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:51:44,810 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:51:44,810 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:51:44,849 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:51:44,851 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:51:44,853 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:51:44,853 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:52:02,791 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:52:03,121 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:03,121 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:03,121 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:03,121 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:03,121 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:03,151 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:52:03,151 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:52:03,151 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:52:03,151 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:52:12,320 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:52:12,967 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:12,968 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:12,969 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:12,970 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:12,970 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:13,021 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:52:13,023 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:52:13,026 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:52:13,027 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:52:16,116 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:52:16,597 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:16,597 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:16,597 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:16,597 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:16,597 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:16,667 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:52:16,677 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:52:16,677 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:52:16,677 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:52:17,187 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:52:17,507 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:17,507 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:17,507 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:17,507 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:17,507 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:52:17,547 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:52:17,547 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:52:17,547 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:52:17,547 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.
+15:55:23,500 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 5.0.6) for API "JDO"
+15:55:23,895 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.RedisGeneratorDao" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:55:23,895 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.Test" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:55:23,895 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$1" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:55:23,895 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$2" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:55:23,895 (main) ERROR [DataNucleus.MetaData] - Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+org.datanucleus.exceptions.ClassNotResolvedException: Class "lab.io.rush.dao.impl.TicketDaoImpl$3" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219)
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:347)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadClasses(MetaDataManagerImpl.java:592)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:718)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:500)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1152)
+
+15:55:23,935 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.PurchaseRecord" is already enhanced.
+15:55:23,935 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.Ticket" is already enhanced.
+15:55:23,935 (main) INFO  [DataNucleus.Enhancer] - Class "lab.io.rush.model.User" is already enhanced.
+15:55:23,935 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes.

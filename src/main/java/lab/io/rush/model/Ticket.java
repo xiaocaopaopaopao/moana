@@ -11,7 +11,7 @@ import javax.jdo.annotations.PrimaryKey;
 /**
  * 电影票模型
  * @author cqy
- * @data 2017年1月6日 上午11:28:27
+ * @data 2017年1月7日 下午5:02:56
  */
 @PersistenceCapable(table = "ticket")
 public class Ticket implements Serializable{

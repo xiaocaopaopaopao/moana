@@ -11,7 +11,7 @@ import javax.jdo.annotations.PrimaryKey;
 /**
  * 用户模型
  * @author cqy
- * @data 2017年1月6日 上午11:27:17
+ * @data 2017年1月7日 下午5:02:25
  */
 @PersistenceCapable(table="user")
 public class User implements Serializable{
